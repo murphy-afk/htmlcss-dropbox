@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
   <title>Dropbox</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -29,18 +33,14 @@
                 Dropbox Business è più di uno spazio di archiviazione sicuro: è un modointelligente e integrato per
                 ottimizzare il flusso di lavoro esistente.</p>
             </div>
-            <div class="link-button pb-2">
+            <div class="link-button pb-2 w-70">
               <a href="#" class="btn">Inizia la tua prova gratuita</a>
             </div>
             <div class="bottom-text fs-1 pb-2">
               <p> Annulla in qualsiasi momento</p>
             </div>
             <div class="arrow-down">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                <path
-                  d="M297.4 566.6C309.9 579.1 330.2 579.1 342.7 566.6L502.7 406.6C515.2 394.1 515.2 373.8 502.7 361.3C490.2 348.8 469.9 348.8 457.4 361.3L352 466.7L352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 466.7L182.6 361.3C170.1 348.8 149.8 348.8 137.3 361.3C124.8 373.8 124.8 394.1 137.3 406.6L297.3 566.6z" />
-              </svg>
+              <i class="fa-solid fa-arrow-down"></i>
             </div>
           </div>
           <div class="hero-image w-60">
@@ -52,12 +52,160 @@
     </div>
     <!-- TODO: ADD MAIN CONTENT CONTAINER WITH W-70  -->
     <!-- business plans section  -->
-    <div class="business-plans-container w-70 h-700">
-      <div class="business-plans-title w-100 h-100 bg-purple"></div>
-      <div class="business-plans-cards-container height-fill w-100">
-        <div class="business-plans-cards w-30 bg-green"></div>
-        <div class="business-plans-cards w-30 bg-green"></div>
-        <div class="business-plans-cards w-30 bg-green"></div>
+    <div class="business-plans-container w-70">
+      <div class="business-plans-title">
+        <h2 class="fs-3 pb-2">
+          Trova il piano business che fa per te
+        </h2>
+        <!-- TODO: add selection -->
+        <div class="billing-type pb-2">
+          <span>Fatturazione mensile</span><span>Fatturazione annuale</span>
+        </div>
+      </div>
+      <div class="business-plans-cards-container">
+        <div class="business-plans-card border w-30">
+          <div class="role-type-section border">
+            <p class="role-type pb-1 pt-1">
+              <i class="fa-solid fa-user"></i>Singolo
+            </p>
+          </div>
+          <!-- TODO: fix lists  -->
+          <div class="card-content">
+            <div class="card-title fs-2 pt-1 pb-1">
+              <h3>Professional</h3>
+            </div>
+            <div class="price fs-1 pb-1">
+              <p>&euro;12.00</p>
+            </div>
+            <div class="frequency fs-1 pb-2">
+              <p>/mese</p>
+            </div>
+            <div class="plan-specifics fs-1 pb-2">
+              <ul class="card-list">
+                <li>
+                  <p><i class="fa-solid fa-user"></i> 1 utente</p>
+                </li>
+                <li>
+                  <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
+                </li>
+                <li>
+                  <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file
+                    semplice e sicura</p>
+                </li>
+              </ul>
+            </div>
+            <div class="free-trial-button pb-2">
+              <a href="#" class="btn">Prova gratis per 30 giorni</a>
+            </div>
+            <div class="buy-now fs-1 pb-1">
+              <span>oppure <a href="#" class="link">acquista ora</a></span>
+            </div>
+            <hr>
+            <div class="recap fs-1 pt-2 pb-1">
+              <h4>Punti salienti del piano</h4>
+              <ul class="card-list">
+                <li><i class="fa-solid fa-check blue"></i> Invia file fino a 100 GB con Dropbox Transfer</li>
+                <li><i class="fa-solid fa-check blue"></i> Cartelle offline si dispositivi mobili</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="business-plans-card border w-30">
+          <div class="role-type-section border">
+            <p class="role-type pb-1 pt-1">
+              <i class="fa-solid fa-user"></i>Team
+            </p>
+          </div>
+          <div class="card-content">
+            <div class="card-title fs-2 pt-1 pb-1">
+              <h3>Advanced</h3>
+            </div>
+            <div class="price fs-1 pb-1">
+              <p>&euro;18.00</p>
+            </div>
+            <div class="frequency fs-1 pb-2">
+              <p>/utente/mese</p>
+            </div>
+            <div class="plan-specifics fs-1 pb-2">
+              <ul class="card-list">
+                <li>
+                  <p><i class="fa-solid fa-users"></i> 3 o più utenti</p>
+                </li>
+                <li>
+                  <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</p>
+                </li>
+                <li>
+                  <p><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro
+                    tutti i file del tuo team</p>
+                </li>
+              </ul>
+            </div>
+            <div class="free-trial-button pb-2">
+              <a href="#" class="btn">Prova gratis per 30 giorni</a>
+            </div>
+            <div class="buy-now fs-1 pb-1">
+              <span>oppure <a href="#" class="link">acquista ora</a></span>
+            </div>
+            <hr>
+            <div class="recap fs-1 pt-2 pb-1">
+              <h4>Punti salienti del piano</h4>
+              <ul class="card-list">
+                <li><i class="fa-solid fa-check blue"></i>Nessun limite di spazio per i file</li>
+                <li><i class="fa-solid fa-check blue"></i> Cartelle offline si dispositivi mobili</li>
+                <li><i class="fa-solid fa-check blue"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                <li><i class="fa-solid fa-check blue"></i> Possibilità di inserire nuovi membri del team</li>
+                <li><i class="fa-solid fa-check blue"></i> Gestione dei permessi in base ai ruoli</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="business-plans-card border w-30">
+          <div class="role-type-section border">
+            <p class="role-type pb-1 pt-1">
+              <i class="fa-solid fa-building"></i>Azienda
+            </p>
+          </div>
+          <div class="card-content">
+            <div class="card-title fs-2 pt-1 pb-1">
+              <h3>Enterprise</h3>
+            </div>
+            <div class="price fs-1 pb-1">
+              <p>Contattaci</p>
+            </div>
+            <div class="frequency fs-1 pb-2">
+              <p>-</p>
+            </div>
+            <div class="plan-specifics fs-1 pb-2">
+              <ul class="card-list">
+                <li>
+                  <p><i class="fa-solid fa-user"></i> 10 o più utenti</p>
+                </li>
+                <li>
+                  <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</p>
+                </li>
+                <li>
+                  <p><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in
+                    una gestione su larga scala</p>
+                </li>
+              </ul>
+            </div>
+            <div class="free-trial-button pb-2">
+              <a href="#" class="btn">Contattaci</a>
+            </div>
+            <div class="buy-now fs-1 pb-1">
+              <span>oppure <a href="#" class="link">acquista ora</a></span>
+            </div>
+            <hr>
+            <div class="recap fs-1 pt-2 pb-1">
+              <h4>Punti salienti del piano</h4>
+              <ul class="card-list">
+                <li><i class="fa-solid fa-check blue"></i> Cartelle offline su dispositivi mobili</li>
+                <li><i class="fa-solid fa-check blue"></i> Servizio assistenza 24/h</li>
+                <li><i class="fa-solid fa-check blue"></i> Possibilità di personalizzazione totale</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- enterprise section  -->
