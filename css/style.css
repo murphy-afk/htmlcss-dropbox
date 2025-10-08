@@ -135,3 +135,10 @@ ELEMENTS
   display: flex;
   justify-content: space-between;
 }
+
+/* enterprise section  */
+
+.enterprise-container {
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
