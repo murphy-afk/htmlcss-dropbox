@@ -120,6 +120,14 @@ a {
   margin-bottom: 100px;
 }
 
+.contact-partner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2em;
+}
 
 /* business operations section  */
 
@@ -326,6 +334,12 @@ UTILITIES
 ******************/
 
 /* button  */
+
+.white-btn {
+  padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
 
 .btn {
   padding: 1em;
