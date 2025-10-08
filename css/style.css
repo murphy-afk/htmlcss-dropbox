@@ -135,7 +135,7 @@ a {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 3em;
 }
 
 .business-operations-cards-container {
@@ -143,7 +143,13 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 10px;
+  gap: 2em;
+}
+
+.business-operations-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 /* our clients section  */
