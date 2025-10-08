@@ -103,6 +103,15 @@ a {
   margin-bottom: 200px;
 }
 
+.enterprise-title {
+  text-align: center;
+}
+
+.enterprise-content-container {
+  display: flex;
+  padding: 1em;
+}
+
 /* contact partner section  */
 
 .contact-partner-container {
