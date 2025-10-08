@@ -142,3 +142,11 @@ ELEMENTS
   margin: 0 auto;
   margin-bottom: 200px;
 }
+
+/* contact partner section  */
+
+.contact-partner-container {
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+}
