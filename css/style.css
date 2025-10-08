@@ -169,3 +169,9 @@ ELEMENTS
   gap: 10px;
 }
 
+/* our clients section  */
+
+.our-clients-container {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
