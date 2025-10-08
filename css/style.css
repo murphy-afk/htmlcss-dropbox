@@ -96,6 +96,13 @@ a {
   padding-bottom: 1em;
 }
 
+.card-hr {
+  margin-top: 1em;
+  border-top: 1px solid rgb(211, 211, 211);
+  ;
+  width: 30%;
+}
+
 /* enterprise section  */
 
 .enterprise-container {
@@ -163,18 +170,53 @@ a {
 
 /* footer  */
 
-.footer-top-content {
-  margin: 0 auto;
+.footer {
+  background-color: rgb(0, 0, 0);
 }
 
-.footer-top-content {
+.footer-container {
+  margin: 0 auto;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  flex-direction: column;
 }
 
-.footer-bottom {
-  margin: 0 auto;
+.footer-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-heading {
+  color: white;
+}
+
+.footer-link {
+  color: white;
+}
+
+
+.footer-column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.footer-hr {
+  border: 1px solid rgb(255, 255, 255);
+  width: 20%;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2px;
 }
 
 /*****************
@@ -198,12 +240,16 @@ UTILITIES
 
 /* color  */
 
+.white {
+  color: rgb(255, 255, 255);
+}
+
 .blue {
   color: rgb(9, 98, 254);
 }
 
 .border {
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(211, 211, 211);
 }
 
 
