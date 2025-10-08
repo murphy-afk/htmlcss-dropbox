@@ -155,8 +155,9 @@ a {
 /* our clients section  */
 
 .our-clients-container {
+  padding-top: 4em;
   margin: 0 auto;
-  margin-bottom: 100px;
+  padding-bottom: 6em;
 }
 
 
@@ -188,7 +189,12 @@ body {
 UTILITIES
 ******************/
 
+/* link  */
 
+.link {
+  text-decoration: underline;
+  color: rgb(61, 61, 211);
+}
 
 /* color  */
 
