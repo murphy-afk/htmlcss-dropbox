@@ -70,6 +70,9 @@ DEBUG
   background-color: purple;
 }
 
+.border {
+  border: 1px solid black;
+}
 
 /*****************
 UTILITIES
@@ -174,4 +177,17 @@ ELEMENTS
 .our-clients-container {
   margin: 0 auto;
   margin-bottom: 100px;
+}
+
+
+/* footer  */
+
+.footer-top-content {
+  margin: 0 auto;
+}
+
+.footer-top-content {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
