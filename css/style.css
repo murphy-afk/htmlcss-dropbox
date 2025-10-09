@@ -85,7 +85,8 @@ ELEMENTS
 
 .hero-image {
   position: absolute;
-  max-width: 105%;
+  width: 100%;
+  max-width: 600px;
 }
 
 .arrow-down {
@@ -132,6 +133,9 @@ a {
   flex-direction: column;
 }
 
+li i {
+  margin-left: -1.5em;
+}
 
 .card-list>li {
   padding-bottom: 1em;
@@ -323,26 +327,32 @@ UTILITIES
 
 .w-40 {
   width: 40%;
+  max-width: 1000px;
 }
 
 .w-50 {
   width: 50%;
+  max-width: 1000px;
 }
 
 .w-60 {
   width: 60%;
+  max-width: 1000px;
 }
 
 .w-70 {
   width: 70%;
+  max-width: 1000px;
 }
 
 .w-80 {
   width: 80%;
+  max-width: 1000px;
 }
 
 .w-90 {
   width: 90%;
+  max-width: 1000px;
 }
 
 .w-100 {
