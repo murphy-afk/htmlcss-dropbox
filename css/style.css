@@ -72,6 +72,11 @@ ELEMENTS
   gap: 2em;
 }
 
+.header-link:hover {
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--black);
+}
+
 /* hero section  */
 
 .hero-container {
