@@ -1,6 +1,16 @@
 :root {
+  --lightgray: rgb(245, 245, 245);
   --lightblue: rgb(0, 97, 255);
   --linkcolor: rgb(61, 61, 211);
+  --lightgreen: rgb(162, 211, 155);
+  --maroon: rgb(97, 8, 43);
+  --acqua: rgb(0, 147, 206);
+  --red: rgb(255, 28, 28);
+  --darkred: rgb(213, 0, 31);
+  --bluegray: rgb(180, 208, 230);
+  --darkblue: rgb(13, 36, 129);
+  --yellow: rgb(255, 216, 48);
+  --gray: rgb(117, 114, 114);
 }
 
 
@@ -63,7 +73,7 @@ ELEMENTS
 /* hero section  */
 
 .hero-container {
-  background-color: rgb(180, 208, 230);
+  background-color: var(--bluegray);
 }
 
 
@@ -122,7 +132,7 @@ a {
 
 
 .frequency {
-  color: rgb(117, 114, 114);
+  color: var(--gray);
 }
 
 
@@ -142,7 +152,7 @@ li i {
 
 .card-hr {
   margin-top: 1em;
-  border-top: 1px solid rgb(211, 211, 211);
+  border-top: 1px solid var(--gray);
   width: 30%;
 }
 
@@ -230,7 +240,25 @@ label {
   flex-wrap: wrap;
 }
 
+.company-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
 
+.company-logo {
+  color: white;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2em 2em 8em 2em;
+}
 
 /* footer  */
 
@@ -317,6 +345,42 @@ UTILITIES
 
 .black {
   color: rgb(0, 0, 0);
+}
+
+.bg-lightgreen {
+  background-color: var(--lightgreen);
+}
+
+.bg-maroon {
+  background-color: var(--maroon);
+}
+
+.bg-acqua {
+  background-color: var(--acqua);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-darkred {
+  background-color: var(--darkred);
+}
+
+.bg-bluegray {
+  background-color: var(--bluegray);
+}
+
+.bg-darkblue {
+  background-color: var(--darkblue);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-gray {
+  background-color: var(--lightgray);
 }
 
 
