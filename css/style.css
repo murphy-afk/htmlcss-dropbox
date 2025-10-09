@@ -12,6 +12,7 @@
   --yellow: rgb(255, 216, 48);
   --gray: rgb(117, 114, 114);
   --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
 }
 
 
@@ -266,6 +267,23 @@ label {
   justify-content: space-between;
   padding-top: 6em;
   padding-bottom: 6em;
+}
+
+/* faq section  */
+
+.faq-container {
+  padding-top: 7em;
+}
+
+.question {
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+  display: flex;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  justify-content: space-between;
+  padding-right: 2em;
+  font-weight: 600;
 }
 
 /* footer  */
