@@ -289,8 +289,16 @@ label {
   display: none;
 }
 
-.question-section:hover .answer{
+.question-section:hover .answer {
   display: inline-block;
+}
+
+/* .chevron-up {
+  display: none;
+} */
+
+.question-section:hover .fa-chevron-down {
+  transform: rotate(180deg);
 }
 
 /* footer  */
