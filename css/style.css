@@ -528,14 +528,23 @@ UTILITIES
 
 .white-btn {
   padding: 1em 2em 1em 2em;
-  border: 1px solid rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
+  border: 1px solid var(--black);
+  color: var(--black);
 }
 
 .btn {
   padding: 1em 2em 1em 2em;
   background-color: var(--lightblue);
-  color: rgb(255, 255, 255);
+  color: var(--white);
+}
+
+.btn:hover {
+  background-color: var(--acqua);
+}
+
+.white-btn:hover {
+  border: 2px solid var(--gray);
+  color: var(--gray);
 }
 
 /* margin */
