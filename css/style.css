@@ -11,6 +11,7 @@
   --darkblue: rgb(13, 36, 129);
   --yellow: rgb(255, 216, 48);
   --gray: rgb(117, 114, 114);
+  --white: rgb(255, 255, 255);
 }
 
 
@@ -247,9 +248,6 @@ label {
   padding: 3em;
 }
 
-.company-logo {
-  color: white;
-}
 
 .review-content {
   display: flex;
@@ -258,6 +256,16 @@ label {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 2em 2em 8em 2em;
+}
+
+/* free trial section  */
+
+.free-trial-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6em;
+  padding-bottom: 6em;
 }
 
 /* footer  */
@@ -278,11 +286,11 @@ label {
 }
 
 .footer-heading {
-  color: white;
+  color: var(--white);
 }
 
 .footer-link {
-  color: white;
+  color: var(--white);
 }
 
 
@@ -299,7 +307,7 @@ label {
 }
 
 .footer-hr {
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid var(--white);
   width: 20%;
 }
 
@@ -332,11 +340,15 @@ UTILITIES
 /* color  */
 
 .white {
-  color: rgb(255, 255, 255);
+  color: var(--white);
 }
 
 .blue {
   color: var(--lightblue);
+}
+
+.maroon {
+  color: var(--maroon);
 }
 
 .border {
@@ -383,6 +395,9 @@ UTILITIES
   background-color: var(--lightgray);
 }
 
+.bg-white {
+  background-color: var(--white);
+}
 
 .fs-1 {
   font-size: 0.8rem;
@@ -485,4 +500,8 @@ UTILITIES
 
 .center {
   margin: 0 auto;
+}
+
+.no-border {
+  border: none;
 }
