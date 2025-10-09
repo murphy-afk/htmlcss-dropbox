@@ -60,19 +60,12 @@ ELEMENTS
   gap: 2em;
 }
 
-.header-link {
-  color: black;
-}
-
 /* hero section  */
 
 .hero-container {
   background-color: rgb(180, 208, 230);
 }
 
-.hero-content-container {
-  margin: 0 auto;
-}
 
 .hero-title {
   padding-top: 3em;
@@ -109,7 +102,6 @@ a {
 .business-plans-container {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 100px;
 }
@@ -158,10 +150,6 @@ li i {
 
 /* enterprise section  */
 
-.enterprise-container {
-  margin: 0 auto;
-  margin-bottom: 200px;
-}
 
 .enterprise-title {
   text-align: center;
@@ -180,18 +168,18 @@ li i {
 /* contact partner section  */
 
 .contact-partner-container {
-  margin: 0 auto;
   display: flex;
-  margin-bottom: 100px;
+  padding-bottom: 6em;
+  padding-top: 6em;
 }
 
 .contact-partner-content {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 2em;
+  padding: 2em;
 }
 
 /* business operations section  */
@@ -200,8 +188,11 @@ li i {
   accent-color: var(--lightblue);
 }
 
+label {
+  padding-right: 1em;
+}
+
 .business-operations-container {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   margin-bottom: 3em;
@@ -224,7 +215,6 @@ li i {
 
 .our-clients-container {
   padding-top: 4em;
-  margin: 0 auto;
   padding-bottom: 6em;
 }
 
@@ -236,7 +226,6 @@ li i {
 }
 
 .footer-container {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -313,6 +302,10 @@ UTILITIES
   border: 1px solid rgb(211, 211, 211);
 }
 
+.black {
+  color: rgb(0, 0, 0);
+}
+
 
 .fs-1 {
   font-size: 0.8rem;
@@ -322,9 +315,6 @@ UTILITIES
   font-size: 1.1rem;
 }
 
-.fs-3 {
-  font-size: 1.5rem;
-}
 
 .fs-3 {
   font-size: 2rem;
@@ -388,10 +378,6 @@ UTILITIES
   padding-top: 2em;
 }
 
-/*****************
-UTILITIES
-******************/
-
 /* button  */
 
 .white-btn {
@@ -404,4 +390,10 @@ UTILITIES
   padding: 1em 2em 1em 2em;
   background-color: var(--lightblue);
   color: rgb(255, 255, 255);
+}
+
+/* margin */
+
+.center {
+  margin: 0 auto;
 }
