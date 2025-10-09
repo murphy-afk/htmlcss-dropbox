@@ -30,6 +30,7 @@ ELEMENTS
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   padding: 1em;
 }
 
@@ -118,7 +119,7 @@ a {
 }
 
 .card-content {
-  padding: 2em;
+  padding: 2em 2.5em 2em 2.5em;
 }
 
 
@@ -330,10 +331,6 @@ UTILITIES
   max-width: 1000px;
 }
 
-.w-50 {
-  width: 50%;
-  max-width: 1000px;
-}
 
 .w-60 {
   width: 60%;
